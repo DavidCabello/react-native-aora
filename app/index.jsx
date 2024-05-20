@@ -6,7 +6,7 @@ import { Link } from 'expo-router'
 const App = () => {
   return (
     <View className="flex-1 items-center justify-center bg-white">
-      <Text>RootLayout</Text>
+      <Text className="font-pblack">RootLayout</Text>
       <StatusBar style='auto'/>
       <Link  href="/profile" style={{color: 'blue'}}>
         Go to profile
